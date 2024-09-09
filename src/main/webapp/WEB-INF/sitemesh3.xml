@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <mapping path="/admin/*" decorator="/views/layouts/admin.jsp"/>
+    <mapping path="/staff/*" decorator="/views/layouts/staff.jsp"/>
+    <mapping path="/*" decorator="/views/layouts/user.jsp"/>
+<!--      <mapping path="/admin/*" exclude="true" />
+    <mapping path="/assets/*" exclude="true" />
+    <mapping path="/staff/*" exclude="true" />  -->
+</sitemesh>

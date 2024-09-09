@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<decorators defaultdir="/WEB-INF/decorators/views/layouts">
+   
+    <decorator name="user" page="user.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    <decorator name="admin" page="admin.jsp">
+        <pattern>/admin/*</pattern>
+    </decorator>
+    <decorator name="staff" page="staff.jsp">
+        <pattern>/staff/*</pattern>
+    </decorator>
+
+</decorators>
